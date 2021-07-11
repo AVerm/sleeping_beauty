@@ -13,8 +13,8 @@ fn half(trials: Vec<Trial>) -> Probability {
 fn third(trials: Vec<Trial>) -> Probability {
     let (mut heads, mut total) = (0, 0);
     for trial in trials {
-        heads = heads + if trial.0 == CoinToss::HEADS {2} else {0};
-        total = total + if trial.0 == CoinToss::HEADS {2} else {1};
+        heads = heads + if trial.0 == CoinToss::HEADS {1} else {0};
+        total = total + if trial.0 == CoinToss::TAILS {2} else {1};
     }
     return (heads as Probability) / (total as Probability);
 }
