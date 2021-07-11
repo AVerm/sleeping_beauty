@@ -3,6 +3,7 @@ name = "sleeping_beauty"
 version = "0.1.0"
 authors = ["Alex Vermillion <dev@ajvermillion.com>"]
 edition = "2018"
+description = "Demonstrate why simulations don't help solve the Sleeping Beauty problem by making nearly identical simulations that answer for each side."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
